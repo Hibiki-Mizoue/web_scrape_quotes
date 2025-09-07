@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.DS_Store
+.vscode/
+
+# outputs
+output/*
+!output/.gitkeep
+
+# docs screenshots keep
+docs/screenshots/.gitkeep
