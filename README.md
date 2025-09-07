@@ -43,11 +43,12 @@
 
 2. 必要ライブラリをインストール  
      ```bash
-    pip install -r requirements.txt
+     pip install -r requirements.txt
+     ```
 
 ---
 
-##　使い方
+## 使い方
 
 1. 基本コマンド
     ```bash
@@ -61,8 +62,10 @@
     ```
 
 3. 出力
+    ```bash
     ・output/quotes.csv
     ・output/quotes_report.xlsx（シート：名言一覧 / 著者別件数 / タグ別件数）
+    ```
 >⚠️ 注意：Excel を開いたまま実行すると保存できません。閉じてから再実行してください。
 
 ---
@@ -85,15 +88,18 @@
   ![sheet_quotes](docs/screenshots/sheet_quotes.png)
 
 - **著者別件数**
+
   ![sheet_authors](docs/screenshots/sheet_authors.png)
 
 - **タグ別件数**
+
   ![sheet_tags](docs/screenshots/sheet_tags.png)
 
 ---
 
 ## フォルダ構成
 
+```bash
 web_scrape_quotes/
 ├─ scrape_quotes.py       # メインスクリプト
 ├─ README.md              # このファイル
@@ -105,6 +111,7 @@ web_scrape_quotes/
 └─ output/                # 生成データ
    ├─ quotes.csv
    └─ quotes_report.xlsx
+```
 
 ---
 
