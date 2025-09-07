@@ -78,8 +78,17 @@
     [OK] CSV saved: output/quotes.csv
     [OK] Excel saved: output/quotes_report.xlsx
 
+
 ### 出力イメージ（Excel）
-![quotes_report](docs/screenshots/quotes_report.png)
+
+- **名言一覧**
+  ![sheet_quotes](docs/screenshots/sheet_quotes.png)
+
+- **著者別件数**
+  ![sheet_authors](docs/screenshots/sheet_authors.png)
+
+- **タグ別件数**
+  ![sheet_tags](docs/screenshots/sheet_tags.png)
 
 ---
 
